@@ -8,3 +8,8 @@ forest.db
 
 # OS
 .DS_Store
+
+# Generated outputs
+data/*.csv
+forest.db
+*.db
