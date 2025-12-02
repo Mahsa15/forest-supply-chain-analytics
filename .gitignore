@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data / DB
+forest.db
+*.db
+
+# OS
+.DS_Store
