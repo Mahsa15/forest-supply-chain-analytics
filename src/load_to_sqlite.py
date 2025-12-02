@@ -1,4 +1,3 @@
-# src/load_to_sqlite.py
 import sqlite3
 import pandas as pd
 
@@ -10,6 +9,7 @@ def load_csv(conn, table, path):
 
 def main():
     conn = sqlite3.connect(DB_PATH)
+
     with open("sql/schema.sql", "r", encoding="utf-8") as f:
         conn.executescript(f.read())
 
